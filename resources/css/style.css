@@ -93,3 +93,34 @@ nav span {
 .month span {
   font-weight: bold;
 }
+.locations {
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  margin: auto;
+}
+.address {
+  opacity: 1;
+  width: 300px;
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  margin: 5px 20px;
+
+}
+.address h2 {
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+#contact {
+  height: 200px;
+  margin-bottom: 20px;
+}
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
