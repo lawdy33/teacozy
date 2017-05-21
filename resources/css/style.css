@@ -56,6 +56,10 @@ nav span {
   margin: auto;
   margin-bottom: 70px;
 }
+h2, h3, h4 {
+  padding: 10px;
+  margin: 0;
+}
 .mission h2 {
   background-color: black;
   display: block;
@@ -97,24 +101,28 @@ nav span {
   display: flex;
   height: 500px;
   width: 1200px;
+  padding-top: 70px;
   background-image: url("../images/img-locations-background.jpg");
-  margin: auto;
-}
-.address {
-  opacity: 1;
-  width: 300px;
-  background-color: black;
+  margin: 0 auto;
+  flex-flow: row wrap;
   justify-content: center;
   align-content: center;
-  padding: 10px;
-  margin: 5px 20px;
-
 }
-.address h2 {
-  margin: 0;
+.locations h2 {
+  display: block;
+  width: 1200px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 257px;
+  background-color: black;
+  opacity: 1;
+  margin: 0px 20px 180px 20px;
   padding: 10px;
-  width: 100%;
-  text-align: center;
 }
 #contact {
   height: 200px;
