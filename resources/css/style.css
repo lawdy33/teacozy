@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  font-size: 22px;
+  margin: 0 auto;
+  justify-content: center;
+}
+header {
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  display: flex;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  z-index: 10;
+}
+header a {
+  text-decoration: underline;
+  color: seashell;
+  width: 65px;
+}
+header a:hover {
+  color: lawngreen;
+  background-color: darkblue;
+}
+#logo {
+  padding-left: 10px
+}
+#logo img {
+  height: 50px;
+  display: flex;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+nav span {
+  padding: 20px 10px;
+}
+.mission {
+  display: flex;
+  position: relative;
+  margin-top: 69px;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 70px;
+}
+.mission h2 {
+  background-color: black;
+  display: block;
+  width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+.mission h4 {
+  background-color: black;
+  display: block;
+  width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+.month {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.month h2,h4 {
+  display: block;
+  margin: 20px 300px 10px 300px;
+
+}
+.pic img {
+  display: flex;
+  height: 200px;
+  width: 300px;
+  margin: 20px 20px 10px 10px;
+}
+.month span {
+  font-weight: bold;
+}
